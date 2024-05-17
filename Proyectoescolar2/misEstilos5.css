@@ -1,0 +1,134 @@
+ /* Estilo general para todo el cuerpo del documento */
+ body {
+    font-family: 'Arial', sans-serif; /* Tipo de letra para el texto */
+    margin: 0; /* Sin margen alrededor del cuerpo */
+    padding: 0; /* Sin relleno alrededor del cuerpo */
+    background: #f4f4f4; /* Color de fondo gris claro */
+}
+
+/* Cabecera del sitio */
+.cabecera {
+    background: #333; /* Fondo oscuro para la cabecera */
+    color: #fff; /* Texto blanco para contraste */
+    padding: 10px 20px; /* Espacio dentro de la cabecera */
+    text-align: center; /* Texto centrado */
+}
+
+/* Contenido principal */
+.contenido-principal {
+    display: flex; /* Usa flexbox para organizar los elementos */
+    flex-wrap: wrap; /* Permite que los elementos pasen a la siguiente línea si no caben */
+    justify-content: center; /* Centra los elementos horizontalmente */
+    gap: 20px; /* Espacio entre los elementos */
+    padding: 20px; /* Espacio dentro del contenido principal */
+}
+
+/* Contenedor para videos */
+.contenedor-video {
+    flex-basis: 100%; /* Ocupa el 100% del ancho disponible */
+    max-width: 560px; /* Ancho máximo para el video */
+    position: relative; /* Posicionamiento relativo para colocar el iframe */
+    padding-bottom: 56.25%; /* Proporción para mantener el aspecto del video */
+    height: 0; /* Altura inicial cero para que la proporción la defina el padding */
+}
+
+/* Estilo para el iframe del video */
+.contenedor-video iframe {
+    position: absolute; /* Posicionamiento absoluto dentro del contenedor relativo */
+    top: 0; /* Alineado arriba */
+    left: 0; /* Alineado a la izquierda */
+    width: 100%; /* Ocupa todo el ancho del contenedor */
+    height: 100%; /* Ocupa toda la altura del contenedor */
+    border: 5px solid #008000; /* Borde sólido y verde */
+    border-radius: 10px; /* Bordes redondeados */
+    transition: border-color 0.5s ease; /* Transición suave del color del borde */
+}
+
+/* Efecto al pasar el ratón por encima del video */
+.contenedor-video iframe:hover {
+    border-color: #ff0000 #00ff00 #0000ff #ff00ff; /* Cambia los colores del borde */
+}
+
+/* Contenedor para imágenes */
+.contenedor-imagen {
+    flex-basis: calc(33.333% - 20px); /* Ocupa un tercio del ancho menos 20px */
+    border: 1px solid #ddd; /* Borde sólido y claro */
+    border-radius: 8px; /* Bordes redondeados */
+    overflow: hidden; /* Oculta cualquier contenido que se salga del contenedor */
+}
+
+/* Estilo para las imágenes dentro del contenedor */
+.contenedor-imagen img {
+    width: 100%; /* Las imágenes ocupan todo el ancho */
+    height: auto; /* La altura se ajusta automáticamente */
+    display: block; /* Las imágenes se muestran como bloques */
+}
+
+/* Contenedor para información adicional */
+.contenedor-info {
+    flex-basis: 100%; /* Ocupa el 100% del ancho disponible */
+    background-color: #fff; /* Fondo blanco para el contenedor */
+    border: 2px solid #00796b; /* Borde sólido y de color turquesa */
+    border-radius: 10px; /* Bordes redondeados */
+    padding: 20px; /* Espacio dentro del contenedor */
+    margin: 20px 0; /* Margen arriba y abajo del contenedor */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave para dar profundidad */
+}
+
+/* Estilo para los títulos dentro del contenedor de información */
+.contenedor-info h2 {
+    color: #00796b; /* Color turquesa para los títulos */
+}
+
+/* Estilo para las listas dentro del contenedor de información */
+.contenedor-info ul {
+    list-style-type: none; /* Sin estilo de lista */
+    padding: 0; /* Sin relleno */
+}
+
+/* Estilo para los ítems de la lista con un ícono de verificación */
+.contenedor-info li::before {
+    content: '✓'; /* Ícono de verificación */
+    color: #4caf50; /* Color verde para el ícono */
+    font-weight: bold; /* Ícono en negrita */
+    display: inline-block; /* Se muestra en línea con el texto */
+    width: 1em; /* Ancho fijo para el ícono */
+    margin-left: -1em; /* Margen negativo para alinear el ícono con el texto */
+}
+
+/* Estilo para párrafos y listas dentro del contenedor de información */
+.contenedor-info p, .contenedor-info li {
+    font-size: 16px; /* Tamaño de letra mediano */
+    line-height: 1.6; /* Espacio entre líneas para mejor lectura */
+    color: #666; /* Color gris oscuro para el texto */
+}
+
+/* Pie de página del sitio */
+.pie-pagina {
+    background: #333; /* Fondo oscuro para el pie de página */
+    color: #fff; /* Texto blanco para contraste */
+    text-align: center; /* Texto centrado */
+    padding: 10px 20px; /* Espacio dentro del pie de página */
+    position: fixed; /* Posición fija en la parte inferior */
+    bottom: 0; /* Alineado abajo */
+    width: 100%; /* Ocupa todo el ancho disponible */
+}
+
+
+
+/* Estilo para el enlace de regreso al índice */
+.enlace-indice {
+    display: inline-block; /* Hace que el enlace sea un bloque en línea */
+    padding: 10px 20px; /* Espaciado interno para hacerlo más grande */
+    margin-top: 30px; /* Espacio arriba del enlace */
+    background-color: #3498db; /* Color de fondo */
+    color: white; /* Color del texto */
+    text-decoration: none; /* Elimina el subrayado del enlace */
+    border-radius: 5px; /* Bordes redondeados */
+    transition: background-color 0.3s; /* Transición suave del color de fondo */
+}
+
+.enlace-indice:hover {
+    background-color: #2980b9; /* Color de fondo al pasar el cursor */
+}
+

@@ -1,0 +1,90 @@
+/* Estilos para el título del tema */
+.tema-ambiental .titulo-tema {
+    text-align: center; /* Esto hace que el título esté en el medio de la página. */
+    font-size: 2.5em; /* Esto hace que el título sea grande y fácil de leer. */
+    color:red; /* Esto pone el título en color rojo. */
+    text-shadow: 2px 2px 4px purple; /* Añade una sombra de texto en gris oscuro para que resalte sobre el amarillo. */
+    margin-bottom: 0.5em; /* Esto pone un poco de espacio debajo del título. */
+    background-color:pink;
+    border-radius: 15px;
+}
+
+/* Estilos para el contenido del tema */
+.contenido-tema .parrafo-tema {
+    font-size: 1.3em; /* Esto hace que el texto sea un poco más grande para leer mejor. */
+    color: #000000; /* Esto pone el texto en color negro. */
+    text-align: justify; /* Esto alinea el texto de manera uniforme en ambos lados. */
+    line-height: 1.8; /* Esto pone más espacio entre cada línea del párrafo. */
+    font-family: "Roboto", sans-serif;
+    padding: 20px; /* Espacio entre el texto y los bordes del div */
+    margin: 10px; /* Espacio entre el div y otros elementos o el borde de la página */
+    
+}
+
+.img1 {
+    width: 300px; /* Un tamaño más grande para mejor visualización */
+    height: auto; /* Altura automática para mantener la proporción */
+    border: 5px solid #3498db; /* Borde sólido más grueso con un bonito color azul */
+    border-radius: 15px; /* Bordes redondeados más pronunciados */
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2); /* Sombra más suave para un efecto sutil */
+    transition: all 0.3s ease-in-out; /* Transición suave para todos los cambios */
+}
+
+.img1:hover {
+    transform: scale(1.1); /* Efecto de zoom más notable al pasar el cursor */
+    border-color: #2ecc71; /* Cambio de color del borde al pasar el cursor */
+}
+
+.img2 {
+    width: 334px; /* Un tamaño más grande para mejor visualización */
+    height: auto; /* Altura automática para mantener la proporción */
+    border: 5px solid red; /* Borde sólido más grueso con un bonito color azul */
+    border-radius: 15px; /* Bordes redondeados más pronunciados */
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2); /* Sombra más suave para un efecto sutil */
+    transition: all 0.3s ease-in-out; /* Transición suave para todos los cambios */
+}
+
+.img2:hover {
+    transform: scale(1.1); /* Efecto de zoom más notable al pasar el cursor */
+    border-color:lightpink; /* Cambio de color del borde al pasar el cursor */
+}
+
+
+
+.imagen1, .imagen2 {
+    display: inline-block; /* Mantiene los elementos uno al lado del otro */
+    margin: 0 auto; /* Centra los elementos horizontalmente */
+}
+
+/* Ajusta los márgenes individuales si es necesario */
+.imagen1 {
+    margin-right: 20px; /* Espacio a la derecha de la imagen1 */
+    margin-left: 20px; /* Espacio a la izquierda de la imagen1 */
+}
+
+.imagen2 {
+    margin-left: 20px; /* Espacio a la izquierda de la imagen2 */
+    margin-right: 20px; /* Espacio a la derecha de la imagen2 */
+}
+
+/* Estilo para el enlace de regreso al índice */
+.enlace-indice {
+    display: inline-block; /* Hace que el enlace sea un bloque en línea */
+    padding: 10px 20px; /* Espaciado interno para hacerlo más grande */
+    margin-top: 30px; /* Espacio arriba del enlace */
+    background-color: #3498db; /* Color de fondo */
+    color: white; /* Color del texto */
+    text-decoration: none; /* Elimina el subrayado del enlace */
+    border-radius: 5px; /* Bordes redondeados */
+    transition: background-color 0.3s; /* Transición suave del color de fondo */
+}
+
+.enlace-indice:hover {
+    background-color: #2980b9; /* Color de fondo al pasar el cursor */
+}
+
+.vid {
+    margin: 20px; /* Esto añade espacio alrededor del video */
+    border: 3px solid #ffd700; /* Esto crea un borde sólido de color dorado */
+    border-radius: 15px; /* Esto redondea las esquinas del borde */
+}

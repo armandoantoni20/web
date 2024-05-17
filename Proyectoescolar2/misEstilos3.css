@@ -1,0 +1,61 @@
+.div-externo {
+    border: 4px solid #000; /* Borde negro para el div externo */
+    border-radius: 20px;
+    padding: 20px; /* Espacio dentro del div externo */
+    margin-bottom: 10px; /* Espacio fuera del div externo */
+}
+
+.div-interno {
+    background-color:#ffd700; /* Fondo gris para el div interno */
+    padding: 10px; /* Espacio dentro del div interno */
+    border-radius: 10px; /* Esquinas redondeadas para el div interno */
+}
+
+.tema-estilizado {
+    background-color:darkorange; 
+    padding: 20px; /* Espaciado interno */
+    border-radius: 100px; /* Bordes redondeados */
+    text-align: center; /* Centrar el texto */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); /* Sombra alrededor del div */
+}
+
+.titulo-sombreado {
+    color:blue; /* Color del texto blanco */
+    font-family: "Titan One", sans-serif;
+    margin: 0; /* Elimina el margen por defecto del h1 */
+    text-shadow: 2px 2px 4px purple; /* Añade una sombra de texto en gris oscuro para que resalte sobre el amarillo. */
+    margin-bottom: 0.5em; /* Esto pone un poco de espacio debajo del título. */
+}
+
+.parrafo {
+    font-family: "Roboto", sans-serif;
+    font-size: 18px; /* Tamaño de fuente grande para facilitar la lectura */
+    line-height: 1.6; /* Espaciado entre líneas para mejorar la legibilidad */
+    color:black; /* Color azul oscuro que resalta */
+    margin-bottom: 15px; /* Espacio debajo del párrafo */
+}
+
+.vid {
+    margin: 20px; /* Esto añade espacio alrededor del video */
+    border: 5px solid #ffd700; /* Esto crea un borde sólido de color dorado */
+    border-radius: 20px; /* Esto redondea las esquinas del borde */
+}
+
+
+
+/* Estilo para el enlace de regreso al índice */
+.enlace-indice {
+    display: inline-block; /* Hace que el enlace sea un bloque en línea */
+    padding: 10px 20px; /* Espaciado interno para hacerlo más grande */
+    margin-top: 30px; /* Espacio arriba del enlace */
+    background-color: #3498db; /* Color de fondo */
+    color: white; /* Color del texto */
+    text-decoration: none; /* Elimina el subrayado del enlace */
+    border-radius: 5px; /* Bordes redondeados */
+    transition: background-color 0.3s; /* Transición suave del color de fondo */
+}
+
+.enlace-indice:hover {
+    background-color: #2980b9; /* Color de fondo al pasar el cursor */
+}
+
